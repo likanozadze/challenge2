@@ -9,9 +9,25 @@ import SwiftUI
 
 @main
 struct Challenge2App: App {
-    var body: some Scene {
+    /// Onboarding is only shown until the user taps "Get started" once.
+    @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false
+
+    var body: some Scene
+    {
         WindowGroup {
-            ContentView()
+            Group {
+                if hasCompletedOnboarding {
+                    ContentView()
+                } else {
+                    OnboardingView {
+                        withAnimation {
+                            hasCompletedOnboarding = true
+                        }
+                    }
+                }
+            }
+            // The app is dark-only.
+            .preferredColorScheme(.dark)
         }
     }
 }

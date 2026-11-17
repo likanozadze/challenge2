@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="48px" viewBox="0 0 83 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="likapage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" stroke="#9A9A9A">
+            <path d="M53.3887297,39.5439446 C47.6644906,48.8180997 8.91355165,48.8181 3.18931039,39.5439448 C-4.35739751,20.5365044 8.69597587,1 28.28902,1 C47.8820642,1 60.9354376,20.5365044 53.3887297,39.5439446 Z" id="Path" stroke-width="2"></path>
+            <polyline id="Path" points="10.28902 16 18.28902 22 12.28902 30"></polyline>
+            <path d="M63.78902,29 L57.2362336,24.0854102 L63.78902,20.809017 Z" id="Path"></path>
+            <path d="M70.28902,16 C76.28902,14 78.28902,18 82.28902,16 M70.28902,26 C76.28902,24 78.28902,30 82.28902,28" id="Shape" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
